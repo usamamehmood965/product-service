@@ -38,4 +38,9 @@ export class ProductsService {
       },
     ];
   }
+
+  reserveStock(order: any) {
+    // check/update DB stock here...
+    console.log(`Reserving stock for order ${order.id}`);
+  }
 }
